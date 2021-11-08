@@ -13,25 +13,28 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.moreyeahs.carwashconsumer.ui.ComplainBoxActivity"
+            android:name=".ui.CarDetailActivity"
             android:exported="false" />
         <activity
-            android:name="com.moreyeahs.carwashconsumer.ui.ContactUsActivity"
+            android:name=".ui.ComplainBoxActivity"
             android:exported="false" />
         <activity
-            android:name="com.moreyeahs.carwashconsumer.ui.ResetPasswordActivity"
+            android:name=".ui.ContactUsActivity"
             android:exported="false" />
         <activity
-            android:name="com.moreyeahs.carwashconsumer.ui.LoginActivity"
+            android:name=".ui.ResetPasswordActivity"
             android:exported="false" />
-        <activity android:name="com.moreyeahs.carwashconsumer.ui.SplashActivity">
+        <activity
+            android:name=".ui.LoginActivity"
+            android:exported="false" />
+        <activity android:name=".ui.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.moreyeahs.carwashconsumer.ui.DashboardActivity" />
+        <activity android:name=".ui.DashboardActivity" />
     </application>
 
 </manifest>

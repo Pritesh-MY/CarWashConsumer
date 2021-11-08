@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.moreyeahs.carwashconsumer.ui.ComplainBoxActivity">
+
+    <include layout="@layout/common_header_layout" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_details"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textCursorDrawable="@drawable/cursor"
+        tools:listitem="@layout/item_car_detail" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSubmit"
+        style="@style/Button"
+        android:layout_margin="@dimen/_10sdp"
+        android:fontFamily="@font/avalon_demi"
+        android:text="Add Vehicle"
+        android:textColor="@color/white" />
+
+</LinearLayout>

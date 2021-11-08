@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:elevation="2dp"
+        android:gravity="center"
+        android:background="@drawable/white_rectangle_bg">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/ic_group_7983"/>
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                style="@style/FontMedium"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="Hyundai" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                style="@style/FontMedium"
+                android:textSize="13sp"
+                android:layout_marginVertical="4dp"
+                android:layout_height="wrap_content"
+                android:text="UP 16 CD 1996" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                style="@style/FontMedium"
+                android:textSize="13sp"
+                android:layout_height="wrap_content"
+                android:text="Orange" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</layout>
