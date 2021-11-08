@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/topHeader"
+            layout="@layout/common_header_layout" />
+
+        <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/topHeader">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_14sdp"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ivLogo"
+                    android:layout_width="@dimen/_120sdp"
+                    android:layout_height="@dimen/_120sdp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/_8sdp"
+                    app:srcCompat="@drawable/ic_car_wash_logo" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/TextViewTitle"
+                    android:layout_marginTop="@dimen/_24sdp"
+                    android:text="@string/enter_mobile_number" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/etNumber"
+                    style="@style/EditText"
+                    android:layout_marginTop="@dimen/_7sdp"
+                    android:drawableStart="@drawable/ic_user"
+                    android:drawablePadding="@dimen/_5sdp"
+                    android:hint="@string/number_hint"
+                    android:inputType="number"
+                    android:textCursorDrawable="@drawable/cursor" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/TextViewTitle"
+                    android:layout_marginTop="@dimen/_24sdp"
+                    android:text="@string/password" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/layoutTextInput"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_7sdp"
+                    android:background="@drawable/iv_bg_edittext"
+                    android:textColorHint="@color/textColor"
+                    app:hintEnabled="false"
+                    app:passwordToggleDrawable="@drawable/show_password_selector"
+                    app:passwordToggleEnabled="true">
+
+                    <EditText
+                        android:id="@+id/et_password"
+                        style="@style/EditText"
+                        android:drawableStart="@drawable/ic_password"
+                        android:drawablePadding="@dimen/_5sdp"
+                        android:hint="@string/password_hint"
+                        android:imeOptions="actionDone"
+                        android:importantForAutofill="no"
+                        android:inputType="textPassword"
+                        android:maxLines="1"
+                        android:textCursorDrawable="@drawable/cursor" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_forgot_password"
+                    style="@style/TextViewCaption"
+                    android:layout_marginTop="@dimen/_16sdp"
+                    android:gravity="end"
+                    android:text="@string/forgot_password"
+                    android:textColor="@color/colorPrimary" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnLogin"
+                    style="@style/Button"
+                    android:layout_marginTop="@dimen/_16sdp"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:fontFamily="@font/avalon_demi"
+                    android:text="@string/login"
+                    android:textColor="@color/white" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

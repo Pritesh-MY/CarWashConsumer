@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Office/AndroidStudioProjects/CarWashConsumer/app/src/main/res/drawable-v24/header_bg.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Office/AndroidStudioProjects/CarWashConsumer/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Office/AndroidStudioProjects/CarWashConsumer/app/src/main/res/drawable-v24/white_rectangle_bg.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Office/AndroidStudioProjects/CarWashConsumer/app/src/main/res/drawable/cursor.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Office/AndroidStudioProjects/CarWashConsumer/app/src/main/res/drawable/gradient_bg.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Office/AndroidStudioProjects/CarWashConsumer/app/src/main/res/drawable/header_bg.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Office/AndroidStudioProjects/CarWashConsumer/app/src/main/res/drawable/ic_frame_187.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Office/AndroidStudioProjects/CarWashConsumer/app/src/main/res/drawable/ic_header_bg.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Office/AndroidStudioProjects/CarWashConsumer/app/src/main/res/drawable/ic_launcher_background.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Office/AndroidStudioProjects/CarWashConsumer/app/src/main/res/layout/activity_complaint_box.xml" value="0.25" />
+        <entry key="..\:/Users/Office/AndroidStudioProjects/CarWashConsumer/app/src/main/res/layout/activity_contact_us.xml" value="0.25" />
+        <entry key="..\:/Users/Office/AndroidStudioProjects/CarWashConsumer/app/src/main/res/layout/activity_dashboard.xml" value="0.25" />
+        <entry key="..\:/Users/Office/AndroidStudioProjects/CarWashConsumer/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/Office/AndroidStudioProjects/CarWashConsumer/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Office/AndroidStudioProjects/CarWashConsumer/app/src/main/res/layout/activity_pictures.xml" value="0.25" />
+        <entry key="..\:/Users/Office/AndroidStudioProjects/CarWashConsumer/app/src/main/res/layout/activity_reset.xml" value="0.25" />
+        <entry key="..\:/Users/Office/AndroidStudioProjects/CarWashConsumer/app/src/main/res/layout/activity_reset_password.xml" value="0.25" />
+        <entry key="..\:/Users/Office/AndroidStudioProjects/CarWashConsumer/app/src/main/res/layout/activity_splash.xml" value="0.25" />
+        <entry key="..\:/Users/Office/AndroidStudioProjects/CarWashConsumer/app/src/main/res/layout/common_header_layout.xml" value="0.25" />
+        <entry key="..\:/Users/Office/AndroidStudioProjects/CarWashConsumer/app/src/main/res/layout/custom_app_menu_bar.xml" value="0.25" />
+        <entry key="..\:/Users/Office/AndroidStudioProjects/CarWashConsumer/app/src/main/res/layout/demo_reset_password.xml" value="0.25" />
+        <entry key="..\:/Users/Office/AndroidStudioProjects/CarWashConsumer/app/src/main/res/layout/demo_signup.xml" value="0.25" />
+        <entry key="..\:/Users/Office/AndroidStudioProjects/CarWashConsumer/app/src/main/res/layout/demo_splash.xml" value="0.25" />
+        <entry key="..\:/Users/Office/AndroidStudioProjects/CarWashConsumer/app/src/main/res/layout/item_pics.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/Office/AndroidStudioProjects/CarWashConsumer/app/src/main/res/layout/progress_dialog.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/Office/AndroidStudioProjects/CarWashConsumer/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.14322916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
