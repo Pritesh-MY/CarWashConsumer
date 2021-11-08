@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".ui.ChoosePlanActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.CarDetailActivity"
             android:exported="false" />
         <activity

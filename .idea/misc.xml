@@ -6,13 +6,16 @@
         <entry key="..\:/Users/Office/AndroidStudioProjects/CarWashConsumer/app/src/main/res/drawable-v24/header_bg.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/Office/AndroidStudioProjects/CarWashConsumer/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/Office/AndroidStudioProjects/CarWashConsumer/app/src/main/res/drawable-v24/white_rectangle_bg.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Office/AndroidStudioProjects/CarWashConsumer/app/src/main/res/drawable/black_rectangle_bg.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/Office/AndroidStudioProjects/CarWashConsumer/app/src/main/res/drawable/cursor.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/Office/AndroidStudioProjects/CarWashConsumer/app/src/main/res/drawable/gradient_bg.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/Office/AndroidStudioProjects/CarWashConsumer/app/src/main/res/drawable/header_bg.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/Office/AndroidStudioProjects/CarWashConsumer/app/src/main/res/drawable/ic_frame_187.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/Office/AndroidStudioProjects/CarWashConsumer/app/src/main/res/drawable/ic_header_bg.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/Office/AndroidStudioProjects/CarWashConsumer/app/src/main/res/drawable/ic_launcher_background.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Office/AndroidStudioProjects/CarWashConsumer/app/src/main/res/drawable/yellow_rectangle_bg.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/Office/AndroidStudioProjects/CarWashConsumer/app/src/main/res/layout/activity_car_detail.xml" value="0.25" />
+        <entry key="..\:/Users/Office/AndroidStudioProjects/CarWashConsumer/app/src/main/res/layout/activity_choose_plan.xml" value="0.25" />
         <entry key="..\:/Users/Office/AndroidStudioProjects/CarWashConsumer/app/src/main/res/layout/activity_complain_box.xml" value="0.25" />
         <entry key="..\:/Users/Office/AndroidStudioProjects/CarWashConsumer/app/src/main/res/layout/activity_complaint_box.xml" value="0.25" />
         <entry key="..\:/Users/Office/AndroidStudioProjects/CarWashConsumer/app/src/main/res/layout/activity_contact_us.xml" value="0.25" />
@@ -30,6 +33,7 @@
         <entry key="..\:/Users/Office/AndroidStudioProjects/CarWashConsumer/app/src/main/res/layout/demo_splash.xml" value="0.25" />
         <entry key="..\:/Users/Office/AndroidStudioProjects/CarWashConsumer/app/src/main/res/layout/item_car_detail.xml" value="0.25" />
         <entry key="..\:/Users/Office/AndroidStudioProjects/CarWashConsumer/app/src/main/res/layout/item_pics.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/Office/AndroidStudioProjects/CarWashConsumer/app/src/main/res/layout/item_plan.xml" value="0.25" />
         <entry key="..\:/Users/Office/AndroidStudioProjects/CarWashConsumer/app/src/main/res/layout/progress_dialog.xml" value="0.12708333333333333" />
         <entry key="..\:/Users/Office/AndroidStudioProjects/CarWashConsumer/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.14322916666666666" />
       </map>
